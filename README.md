@@ -1,2 +1,2 @@
 # Panorama-Stitching
-An assignment carried out for the module EN2550 - Fundamentals of Image Processing &amp; Machine Vision
+In this assignment the SIFT features for the 2 images were detected and computed. FLANN feature matching and Lowe's ratio test was done to obtain the best matched features in the two images. The homography matrix was obtained through RANSAC in *cv.findHomography()* and it was used to transform the right image onto the left image and later they were stitched together to obtain the panorama.
